@@ -29,7 +29,7 @@ Each model is evaluated using the following metrics:
 
 ### Precision and Recall
 
-### AUC-PR (Area Under Precision-Recall Curve)
+### AUPRC (Area Under Precision-Recall Curve)
 
 ### Brier Score
 
@@ -43,6 +43,8 @@ The project incorporates advanced interpretability techniques:
 ### SHAP Analysis (SHapley Additive exPlanations)
 
 ### ALE Plots (Accumulated Local Effects)
+
+### RCS and logistic regression between SA and sleep duration
 
 These allow insights into feature contributions and model behavior.
 
