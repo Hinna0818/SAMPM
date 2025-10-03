@@ -1,59 +1,53 @@
 # 🧬 SAMPM: Successful Aging Prediction Models based on Machine Learning
-## Overview
-This repository aims to build machine learning models to predict successful aging outcomes based on health conditions, lifestyle factors, and chronic disease history.
-We apply a variety of popular machine learning algorithms to explore predictive performance and model interpretability.
+## 📖 Introduction
+This repository provides the implementation of machine learning models for predicting successful aging (SA) outcomes, based on health conditions, lifestyle factors, and chronic disease history.
+The project evaluates multiple algorithms, compares predictive performance, and applies interpretability techniques to understand feature contributions.
 
-## 🚀 Models Implemented
-### MLP (Multi-Layer Perceptron)
+---
 
-### CatBoost (Categorical Boosting)
+## 🚀 Implemented Models
+The following models are implemented as baselines for predictive analysis and hyperparameter optimization:
 
-### Random Forest (RF)
+- **CatBoost** (Categorical Boosting)  
+- **Random Forest (RF)**  
+- **Logistic Regression (LR)**  
+- **Gradient Boosting Decision Tree (GBDT)**  
+- **XGBoost**  
+- **LightGBM**  
 
-### Logistic Regression (LR)
-
-### Gradient Boosting Decision Tree (GBDT)
-
-### XGBoost
-
-### LightGBM
-
-Each model serves as a baseline for further hyperparameter optimization and performance comparison.
+---
 
 ## 📊 Evaluation Metrics
-Each model is evaluated using the following metrics:
+Model performance is assessed using multiple metrics for robustness:
 
-### F1 Score
+- **F1 Score**  
+- **AUC (Area Under ROC Curve)**  
+- **Precision & Recall**  
+- **AUPRC (Area Under Precision–Recall Curve)**  
+- **Brier Score**  
+- **Accuracy**  
 
-### ROC-AUC Score
+In addition, **ROC curves** are plotted for both training and test sets to provide detailed comparison.
 
-### Precision and Recall
-
-### AUPRC (Area Under Precision-Recall Curve)
-
-### Brier Score
-
-### Accuracy
-
-Both training set and test set ROC curves are plotted for detailed performance comparison.
+---
 
 ## 🔍 Model Interpretability
-The project incorporates advanced interpretability techniques:
+To gain insights into model decisions, the following interpretability techniques are applied:
 
-### SHAP Analysis (SHapley Additive exPlanations)
+- **SHAP (SHapley Additive exPlanations):** quantifies individual feature contributions.  
+- **ALE Plots (Accumulated Local Effects):** captures feature effects while accounting for correlations.  
+- **Restricted Cubic Splines (RCS) with logistic regression:** explores nonlinear associations, e.g., between SA and sleep duration.  
 
-### ALE Plots (Accumulated Local Effects)
+---
 
-### RCS and logistic regression between SA and sleep duration
+## 📜 Citation
+If you use this repository in your research, please cite:
+```{}
+doi pending
+```
 
-These allow insights into feature contributions and model behavior.
+---
 
-## 🛠 Future Work
-### 📈 Introduce deep learning models (e.g., TabTransformer)
-
-### 🛡️ Implement imbalance handling techniques (e.g., SMOTE, EasyEnsemble)
-
-### 🎯 Perform full hyperparameter optimization using Optuna
-
-### 🌍 Extend dataset and validate across multiple cohorts
+## 📬 Contact
+For questions, please feel free to contact nanh302311@gmail.com.
 
