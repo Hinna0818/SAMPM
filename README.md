@@ -43,7 +43,7 @@ To gain insights into model decisions, the following interpretability techniques
 ## 📜 Citation
 If you use this repository in your research, please cite:
 ```{}
-doi pending
+10.1038/s41598-025-24154-w
 ```
 
 ---
